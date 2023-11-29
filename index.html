@@ -94,6 +94,7 @@
           .then(data => {
             // The body itself is a JSON string, so parse it
             const parsedBody = JSON.parse(data.body);
+            
     
             // Now you can access ExtractedText and Sentiment
             const extractedText = parsedBody.ExtractedText || 'No data';
