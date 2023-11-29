@@ -21,18 +21,11 @@ phases:
 
   post_build:
     commands:
-      - echo "Copying build output and Procfile to the artifact directory..."
-      - mkdir -p /tmp/artifact
-      - cp -r build/* /tmp/artifact/
-      - cp package.json /tmp/artifact/
-      - cp Procfile /tmp/artifact/
-      - cp server.js /tmp/artifact/
-      - echo "Zipping the artifact..."
-      - cd /tmp/artifact
-      - zip -r SentimentAnalysis.zip .
-      - echo "Moving the artifact to the build directory..."
-      - mv SentimentAnalysis.zip $CODEBUILD_SRC_DIR
+      - echo "Zipping the application including node_modules..."
+      - zip -r SentimentAnalysis.zip . -x ".*" "*/*.log"
+      - echo "Artifact zip created."
 
 artifacts:
   files:
-    - SentimentAnalysis.zip
+    - '**/*'
+    discard-paths: no
