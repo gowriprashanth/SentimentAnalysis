@@ -11,7 +11,7 @@ phases:
   pre_build:
     commands:
       - echo "Running tests..."
-      # Uncomment the line below to execute tests
+      # Uncomment the line below to execute test
       # - npm test
 
   build:
