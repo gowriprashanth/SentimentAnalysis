@@ -1,0 +1,38 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 18
+    commands:
+      - echo "Installing source NPM dependencies..."
+      - npm install
+
+  pre_build:
+    commands:
+      - echo "Running tests..."
+      # Uncomment the line below to execute tests
+      # - npm test
+
+  build:
+    commands:
+      - echo "Building the React app..."
+      - npm run build
+
+  post_build:
+    commands:
+      - echo "Copying build output and Procfile to the artifact directory..."
+      - mkdir -p /tmp/artifact
+      - cp -r build/* /tmp/artifact/
+      - cp package.json /tmp/artifact/
+      - cp Procfile /tmp/artifact/
+      - cp server.js /tmp/artifact/
+      - echo "Zipping the artifact..."
+      - cd /tmp/artifact
+      - zip -r SentimentAnalysis.zip .
+      - echo "Moving the artifact to the build directory..."
+      - mv SentimentAnalysis.zip $CODEBUILD_SRC_DIR
+
+artifacts:
+  files:
+    - SentimentAnalysis.zip
