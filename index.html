@@ -92,7 +92,7 @@
         fetch('https://42v84a67m5.execute-api.us-east-1.amazonaws.com/prod/polarity')
           .then(response => response.json())
           .then(data => {
-            // The body itself is a JSON string, so parse i
+            // The body itself is a JSON string
             const parsedBody = JSON.parse(data.body);
     
             // Now you can access ExtractedText and Sentiment
