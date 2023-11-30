@@ -4,7 +4,7 @@ phases:
   install:
     commands:
       - echo "Manually installing Node.js version 18..."
-      - curl -sL https://deb.nodesource.com/setup_18.x | bash -
+      - curl -fsSL https://deb.nodesource.com/setup_18.x | bash -
       - apt-get install -y nodejs
       - node -v
       - npm -v
