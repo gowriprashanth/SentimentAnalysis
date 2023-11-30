@@ -6,7 +6,7 @@ phases:
       # Install NVM (Node Version Manager)
       - echo "Installing NVM (Node Version Manager)..."
       - curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
-      - . /root/.nvm/nvm.sh
+      - chmod +x /root/.nvm/nvm.sh
 
       # Install Node.js version 18
       - echo "Installing Node.js version 18..."
