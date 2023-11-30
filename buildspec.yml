@@ -10,7 +10,7 @@ phases:
 
       # Install Node.js version 18
       - echo "Installing Node.js version 18..."
-      - nvm install 18
+      - /root/.nvm/nvm.sh install 18
       - nvm use 18
       - node -v
       - npm -v
