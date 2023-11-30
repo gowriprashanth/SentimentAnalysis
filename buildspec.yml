@@ -3,51 +3,34 @@ version: 0.2
 phases:
   install:
     commands:
-      # Install NVM (Node Version Manager)
       - echo "Installing NVM (Node Version Manager)..."
       - curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
-      - chmod +x /root/.nvm/nvm.sh
-
-      # Install Node.js version 18
-      - echo "Installing Node.js version 18..."
-      - /root/.nvm/nvm.sh install 18
-      - /root/.nvm/nvm.sh use 18
+      - . /root/.nvm/nvm.sh
+      - nvm install 18
+      - nvm use 18
       - node -v
       - npm -v
-
-      # Install NPM dependencies
       - echo "Installing source NPM dependencies..."
       - npm install
 
   pre_build:
     commands:
-      # Run tests or any other pre-build commands
       - echo "Running pre-build steps..."
-      # Uncomment the line below to execute tests
       # - npm test
 
   build:
     commands:
-      # Build the React application
       - echo "Building the React app..."
       - npm run build
 
   post_build:
     commands:
-      # Post-build steps such as zipping the build artifacts
       - echo "Post-build steps..."
       - echo "Zipping the application including node_modules..."
       - zip -r SentimentAnalysis.zip . -x ".*" "*/*.log"
       - echo "Artifact zip created."
 
 artifacts:
-  # Define the files to be included in the build artifact
   files:
     - '**/*'
-  # Do not discard paths in the artifact
   discard-paths: no
-
-# Optionally, you can define environment variables
-# environment:
-#   variables:
-#     KEY: "value"
