@@ -1,0 +1,49 @@
+/* Sentiment.css */
+
+/* Container styling */
+.sentiment-container {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: rgb(255, 248, 171);
+  }
+  
+  /* Heading styling */
+  .sentiment-heading {
+    font-size: 24px;
+    color: rgb(75, 97, 58);
+    margin-bottom: 20px;
+  }
+  
+  /* Paragraph styling */
+  p {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #444;
+  }
+  
+  strong.extracted-text-label {
+    font-weight: bold;
+    color: #007BFF; /* Change the color as needed */
+  }
+  
+  strong.sentiment-label {
+    font-weight: bold;
+    color: #007BFF; /* Change the color as needed */
+  }
+ 
+
+  /* Styling for data.ExtractedText */
+p strong.extracted-text-label + span {
+    font-size: 18px; 
+    color: #d41c1c; 
+  }
+  
+  /* Styling for data.Sentiment */
+  p strong.sentiment-label + span {
+    font-size: 18px;  
+    color: #d41c1c; 
+  }
+  

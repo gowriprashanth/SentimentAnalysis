@@ -1,14 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import ImageUpload from './ImageUpload';
 import Sentiment from './Sentiment';
+import SentimentText from './SentimentText';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Sentiment/>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<ImageUpload />} />
+        <Route path="/sentiment" element={<Sentiment />} />
+        <Route path="/SentimentText" element={<SentimentText />} />
+      </Routes>
+    </Router>
   );
 }
 

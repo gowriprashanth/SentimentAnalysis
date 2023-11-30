@@ -1,0 +1,72 @@
+/* ImageUpload.css */
+
+.upload-container {
+    text-align: center;
+    margin: 20px;
+    background-color: rgb(255, 248, 171);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .upload-heading {
+    font-size: 24px;
+    color: rgb(75, 97, 58);
+    margin-bottom: 20px;
+  }
+  
+  .file-input {
+    display: none;
+  }
+  
+  .upload-button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .upload-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .file-details {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  .file-info {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #444;
+  }
+  .file-input {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #444;
+  }
+  
+  .select-file-message {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #444;
+  }
+  
+  .upload-status {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .upload-status.success {
+    color: green;
+  }
+  
+  .upload-status.error {
+    color: red;
+  }
+  
