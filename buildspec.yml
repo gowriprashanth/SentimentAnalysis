@@ -2,12 +2,9 @@ version: 0.2
 
 phases:
   install:
+    runtime-versions:
+      nodejs: 14
     commands:
-      - echo "Manually installing Node.js version 18..."
-      - curl -fsSL https://deb.nodesource.com/setup_18.x | bash -
-      - apt-get install -y nodejs
-      - node -v
-      - npm -v
       - echo "Installing source NPM dependencies..."
       - npm install
 
