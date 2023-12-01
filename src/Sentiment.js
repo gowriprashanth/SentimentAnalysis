@@ -10,7 +10,7 @@ function Sentiment() {
   useEffect(() => {
     axios.get('https://42v84a67m5.execute-api.us-east-1.amazonaws.com/prod/polarity')
       .then(response => {
-        setData(JSON.parse(response.data.body)); // Parse the JSON string
+        setData(JSON.parse(response.data.body)); // Parse the JSON strin
         setIsLoading(false);
       })
       .catch(error => {
