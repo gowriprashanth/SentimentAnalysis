@@ -10,7 +10,7 @@ const ImageUpload = () => {
   const [textInput, setTextInput] = useState(''); // State for text input
   const navigate = useNavigate();
 
-  // Handles file selection
+  // Handles file selecti
   const onFileChange = event => {
     setUploadStatus('');
     setSelectedFile(event.target.files[0]);
