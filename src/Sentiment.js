@@ -24,7 +24,7 @@ function Sentiment() {
     <div className="sentiment-container">
       <h1 className="sentiment-heading">Extracted Text and Sentiment</h1>
       <p><strong className="extracted-text-label">Extracted Text:</strong> <span>{data.ExtractedText}</span></p>
-      <p><strong className="sentiment-label">Sentiment:</strong> <span>{data.Sentiment}</span></p>
+      <p><strong className="sentiment-label">Sentiment Analysis:</strong> <span>{data.Sentiment}</span></p>
     </div>
   );
 }
