@@ -22,9 +22,9 @@ phases:
   post_build:
     commands:
       - echo "Post-build steps..."
-      - echo "Zipping the application including node_modules..."
-      - zip -r SentimentAnalysis.zip . -x ".*" "*/*.log"
-      - echo "Artifact zip created."
+      # - echo "Zipping the application including node_modules..."
+      # - zip -r SentimentAnalysis.zip . -x ".*" "*/*.log"
+      # - echo "Artifact zip created."
 
 artifacts:
   files:
