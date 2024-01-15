@@ -66,7 +66,12 @@ Reasons for choosing Serverless Architecture:
 ## System Architecture
 
 Detailed overview of the cloud-based sentiment analysis system architecture, including API Gateway, Lambda functions, S3, Textract, and the sentiment analysis process.
+
 ![Picture1](https://github.com/gowriprashanth/SentimentAnalysis/assets/35870534/2a57a0d9-abd9-478b-afd3-8f13e8429234)
+
+## Sentiment Analysis Output
+
+<img width="1027" alt="Screenshot 2024-01-14 at 10 02 22 PM" src="https://github.com/gowriprashanth/SentimentAnalysis/assets/35870534/29e30bdc-09f3-4163-b7dd-6bf65b4eb5b3">
 
 ## Security Analysis
 
