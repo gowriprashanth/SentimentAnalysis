@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+# Sentiment Analysis System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
 
-## Available Scripts
+In the digital age, businesses generate vast amounts of unstructured text data through various channels. This project addresses the need for efficient sentiment analysis by developing a cloud-based system that processes and analyzes text data from multiple sources.
 
-In the project directory, you can run:
+## Project Description
 
-### `npm start`
+The project aims to develop a scalable, secure, and cost-effective sentiment analysis system. It processes text data, including images with embedded text, to determine sentiment (positive, negative, or neutral). Real-time analysis empowers businesses with data-driven decision-making, improved customer experience, and strategic reputation management.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Problem Statement
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Challenges addressed:
+- Volume of unstructured text data
+- Complexity of natural language
+- Need for real-time analysis
+- High cost of sentiment analysis infrastructure
 
-### `npm test`
+## Service Selection and Comparative Analysis
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Selected AWS services:
+- Compute: AWS Lambda, AWS Elastic Beanstalk
+- Storage: AWS S3
+- Network: AWS API Gateway
+- General: Amazon Textract, AWS CloudFormation
 
-### `npm run build`
+Reasons for selection:
+- Integration with AWS ecosystem
+- Security features
+- Scalability
+- Comprehensive documentation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Deployment Model
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Automated Continuous Deployment model using AWS services:
+- AWS CodePipeline
+- AWS CodeBuild
+- AWS Elastic Beanstalk
+- AWS CloudFormation
+- Amazon S3
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Reasons for choosing automated continuous deployment:
+- Speed and efficiency
+- Reliability
+- Scalability
+- Repeatability
+- Rollback capabilities
+- Resource optimization
 
-### `npm run eject`
+## Delivery Model
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Platform as a Service (PaaS) approach with a Serverless Architecture:
+- AWS API Gateway
+- AWS Lambda
+- Amazon S3
+- Amazon Textract
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Reasons for choosing Serverless Architecture:
+- Cost-effectiveness
+- Simplicity and speed
+- Scalability
+- High availability and fault tolerance
+- Operational management
+- Flexibility
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## System Architecture
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Detailed overview of the cloud-based sentiment analysis system architecture, including API Gateway, Lambda functions, S3, Textract, and the sentiment analysis process.
 
-## Learn More
+## Security Analysis
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Multi-layered security strategy covering API Gateway, Lambda, S3, Textract, IAM, and AWS CloudFormation. Emphasis on encryption, access control, secure data transmission, monitoring, and compliance adherence.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Cost Metrics Analysis
 
-### Code Splitting
+Breakdown of operating costs, upfront costs, ongoing costs, additional costs, cost-saving alternatives, justification for more expensive solutions, and tips for cost optimization.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Future Works
 
-### Analyzing the Bundle Size
+Plans for future enhancements, including natural language processing techniques, language support expansion, real-time analytics, user interface improvements, data privacy measures, integration capabilities, scalability, and resource management.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Conclusion
 
-### Making a Progressive Web App
+Summary of the project's purpose, utilization of serverless architecture on AWS, promises of scalability, security, and cost-effectiveness, and its role in empowering businesses with real-time analytics and text analysis tools.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
