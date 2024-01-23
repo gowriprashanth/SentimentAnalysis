@@ -57,7 +57,7 @@ Platform as a Service (PaaS) approach with a Serverless Architecture:
 - Amazon S3
 - Amazon Textract
 
-[Video demonstration - Delivery model](https://dalu-my.sharepoint.com/:v:/r/personal/gw351441_dal_ca/Documents/SentimentAnalysis_Video_Demonstration/System_Delivery.mp4?csf=1&web=1&e=hdFMVs)
+[Video demonstration - Delivery model](https://dalu-my.sharepoint.com/:v:/g/personal/gw351441_dal_ca/ETD09iPPx7BIplLVK1EOJnYBf2q7lW20TSKsWgY5Y5mPcA?e=hJqfaX)
 
 Reasons for choosing Serverless Architecture:
 - Cost-effectiveness
