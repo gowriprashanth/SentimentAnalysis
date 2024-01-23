@@ -39,6 +39,8 @@ Automated Continuous Deployment model using AWS services:
 - AWS CloudFormation
 - Amazon S3
 
+![Video demonstration - Deployment model](https://dalu-my.sharepoint.com/:v:/r/personal/gw351441_dal_ca/Documents/SentimentAnalysis_Video_Demonstration/System_Deployment.mp4?csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=xsrFy8)
+
 Reasons for choosing automated continuous deployment:
 - Speed and efficiency
 - Reliability
@@ -54,6 +56,8 @@ Platform as a Service (PaaS) approach with a Serverless Architecture:
 - AWS Lambda
 - Amazon S3
 - Amazon Textract
+
+![Video demonstration - Delivery model](https://dalu-my.sharepoint.com/:v:/r/personal/gw351441_dal_ca/Documents/SentimentAnalysis_Video_Demonstration/System_Delivery.mp4?csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=O3qFlK)
 
 Reasons for choosing Serverless Architecture:
 - Cost-effectiveness
