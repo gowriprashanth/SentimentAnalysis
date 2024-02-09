@@ -30,6 +30,24 @@ Reasons for selection:
 - Scalability
 - Comprehensive documentation
 
+## Delivery Model
+
+Platform as a Service (PaaS) approach with a Serverless Architecture:
+- AWS API Gateway
+- AWS Lambda
+- Amazon S3
+- Amazon Textract
+
+[Video demonstration - Delivery model](https://dalu-my.sharepoint.com/:v:/g/personal/gw351441_dal_ca/ETD09iPPx7BIplLVK1EOJnYBf2q7lW20TSKsWgY5Y5mPcA?e=hJqfaX)
+
+Reasons for choosing Serverless Architecture:
+- Cost-effectiveness
+- Simplicity and speed
+- Scalability
+- High availability and fault tolerance
+- Operational management
+- Flexibility
+  
 ## Deployment Model
 
 Automated Continuous Deployment model using AWS services:
@@ -48,24 +66,6 @@ Reasons for choosing automated continuous deployment:
 - Repeatability
 - Rollback capabilities
 - Resource optimization
-
-## Delivery Model
-
-Platform as a Service (PaaS) approach with a Serverless Architecture:
-- AWS API Gateway
-- AWS Lambda
-- Amazon S3
-- Amazon Textract
-
-[Video demonstration - Delivery model](https://dalu-my.sharepoint.com/:v:/g/personal/gw351441_dal_ca/ETD09iPPx7BIplLVK1EOJnYBf2q7lW20TSKsWgY5Y5mPcA?e=hJqfaX)
-
-Reasons for choosing Serverless Architecture:
-- Cost-effectiveness
-- Simplicity and speed
-- Scalability
-- High availability and fault tolerance
-- Operational management
-- Flexibility
 
 ## System Architecture
 
